@@ -1,0 +1,45 @@
+.link_1 {
+    color: Red;
+}
+.link_2 {
+    color: Blue;
+}
+.link_3 {
+    color: Green;
+}
+
+.author {
+    color: Red;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 2px solid Black;
+    padding: 10px 15px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+}
+.red_square {
+    background-color: Red;
+}
+.blue_square {
+    background-color: Blue;
+}
+.green_square {
+    background-color: Green;
+}
+.purple_square {
+    background-color: Purple;
+}
