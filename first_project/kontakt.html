@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt — Caravaggio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Caravaggio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Otwórz menu">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container two-col">
+            <div>
+                <h1>Napisz do nas</h1>
+                <p style="max-width:50ch;">
+                    Masz pytanie, zauważyłeś błąd merytoryczny albo po
+                    prostu chcesz podyskutować o Caravaggiu? Zostaw wiadomość poniżej.
+                </p>
+                <form id="contactForm" class="form-grid">
+                    <div>
+                        <label for="email">Adres e-mail</label>
+                        <input type="email" id="email" name="email" placeholder="xyz@mail.com" required>
+                        <p class="field-error" id="emailError"></p>
+                    </div>
+                    <div>
+                        <label for="subject">Temat wiadomości</label>
+                        <select id="subject" name="subject">
+                            <option value="">--wybierz temat--</option>
+                            <option value="pytanie">Pytanie o projekt</option>
+                            <option value="blad">Zgłoszenie błędu na stronie</option>
+                            <option value="wspolpraca">Propozycja współpracy</option>
+                            <option value="inne">Inne</option>
+                        </select>
+                        <p class="field-error" id="subjectError"></p>
+                    </div>
+                    <div>
+                        <label for="message">Wiadomość</label>
+                        <textarea id="message" name="message" placeholder="Treść wiadomości..."></textarea>
+                        <p class="field-error" id="messageError"></p>
+                    </div>
+                    <div>
+                        <input type="submit" class="btn btn-solid" value="Wyślij">
+                    </div>
+                    <p class="form-status" id="formStatus"></p>
+                </form>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+          <div class="footer-inner">
+              <p>Autor: <strong>Mateusz Kuta</strong></p><p class="source">Źródło: Wikimedia Commons, domena publiczna</p>
+              <button class="theme-switch" id="themeSwitch" type="button">☾ Tryb ciemny</button>
+          </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

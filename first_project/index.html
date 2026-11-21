@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caravaggio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Caravaggio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Otwórz menu">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" style="background-image:url('./resources/Contarelli.jpg');">
+            <div class="hero-content">
+                <p class="hero-eyebrow">Michelangelo Merisi da Caravaggio, 1571–1610</p>
+                <h1 class="title">Światło, które wydobywa prawdę z ciemności</h1>
+                <p class="lead">
+                Caravaggio odmienił malarstwo europejskie, sprowadzając świętych
+                na brudne ulice Rzymu i oświetlając ich jednym, ostrym promieniem
+                światła. Zapraszam do krótkiej podróży po jego życiu i najważniejszych obrazach.
+                </p>
+                <p>
+                <a class="btn btn-solid" href="galeria.html">Zobacz galerię dzieł</a>
+                <a class="btn btn-solid" href="biografia.html">Poznaj biografię</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- INTRODUCTION -->
+        <section>
+            <div class="container two-col">
+                <div>
+                    <h2 class="section-title">Kim był Caravaggio?</h2>
+                    <p>
+                    Michelangelo Merisi, zwany Caravaggiem (od nazwy miasteczka,
+                    z którego pochodziła jego rodzina), to jeden z najbardziej
+                    wpływowych malarzy baroku. Zasłynął z techniki
+                    <strong>chiaroscuro</strong> - silnego kontrastu światła
+                    i cienia - oraz brutalnego realizmu, w którym modelami do
+                    scen biblijnych bywali żebracy, karciarze i prostytutki
+                    z rzymskich uliczek.
+                    </p>
+                    <p>
+                    Jego życie było równie burzliwe, co twórczość: bójki,
+                    wyrok za zabójstwo, ucieczka z Rzymu i śmierć w niewyjaśnionych
+                    okolicznościach w wieku zaledwie 38 lat. Mimo krótkiej
+                    kariery wpłynął na malarstwo na całe następne stulecie.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+          <div class="footer-inner">
+              <p>Autor: <strong>Mateusz Kuta</strong></p><p class="source">Źródła: Wikimedia Commons, domena publiczna</p>
+              <button class="theme-switch" id="themeSwitch" type="button">☾ Tryb ciemny</button>
+          </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

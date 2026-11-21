@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria — Caravaggio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Caravaggio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Otwórz menu">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h1>Galeria wybranych dzieł</h1>
+                <p style="max-width:75ch;">Poniżej kilka najbardziej charakterystycznych obrazów Caravaggia.</p>
+
+                <div class="gallery-grid">
+                    <figure class="gallery-item">
+                        <img src="./resources/Contarelli.jpg"
+                             alt="Powołanie świętego Mateusza, Caravaggio">
+                        <figcaption>
+                            <strong>Powołanie świętego Mateusza</strong>, ok. 1599–1600<br>
+                            Kaplica Contarellich, Rzym
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="./resources/Judith_Beheading_Holofernes.jpg"
+                           alt="Judyta ścinająca głowę Holofernesowi, Caravaggio">
+                        <figcaption>
+                            <strong>Judyta i Holofernes</strong>, ok. 1598–1599<br>
+                            Galleria Nazionale d'Arte Antica, Rzym
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="./resources/Medusa.jpg"
+                           alt="Meduza, Caravaggio">
+                        <figcaption>
+                            <strong>Meduza</strong>, ok. 1597<br>
+                            Galleria degli Uffizi, Florencja
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="./resources/Bacchus.jpg"
+                           alt="Bachus, Caravaggio">
+                        <figcaption>
+                            <strong>Bachus</strong>, ok. 1596<br>
+                            Galleria degli Uffizi, Florencja
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="./resources/Canestra_di_frutta.jpg"
+                           alt="Kosz z owocami, Caravaggio">
+                        <figcaption>
+                            <strong>Kosz z owocami</strong>, ok. 1597–1600<br>
+                            Pinacoteca Ambrosiana, Mediolan
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="./resources/David_with_the_Head_of_Goliath.jpg"
+                           alt="Dawid z głową Goliata, Caravaggio">
+                        <figcaption>
+                            <strong>Dawid z głową Goliata</strong>, ok. 1609–1610<br>
+                            Galleria Borghese, Rzym
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="section-title">Film</h2>
+                <div class="video-wrap">
+                    <video controls preload="auto"
+                        poster="https://commons.wikimedia.org/wiki/Special:FilePath/CaravaggioContarelli.jpg?width=700">
+                    <source src="https://commons.wikimedia.org/wiki/Special:FilePath/15th%20century%20Italian%20prints%20at%20Museum%20Boijmans%20Van%20Beuningen.webm" type="video/webm">
+                    Twoja przeglądarka nie obsługuje znacznika wideo.
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+          <div class="footer-inner">
+              <p>Autor: <strong>Mateusz Kuta</strong></p><p class="source">Źródło: Wikimedia Commons, domena publiczna</p>
+              <button class="theme-switch" id="themeSwitch" type="button">☾ Tryb ciemny</button>
+          </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
